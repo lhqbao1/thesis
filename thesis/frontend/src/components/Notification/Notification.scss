@@ -1,0 +1,23 @@
+.notiUl {
+    padding-inline-start: 1.5em;
+    font-weight: 400;
+
+    ::marker {
+        content: ">>";
+        color: #48b;
+    }
+}
+
+.notiItem {
+    position: relative;
+    padding-inline-start: 0.5em;
+    color: #48b;
+    cursor: pointer;
+    transition: color 0.4s;
+    margin-bottom: 10px;
+
+    &:hover {
+        color: #45b;
+    }
+
+}

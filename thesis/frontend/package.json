@@ -1,0 +1,41 @@
+{
+  "name": "fe-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@react-pdf-viewer/core": "^3.7.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@reduxjs/toolkit": "1.9.3",
+    "antd": "^5.6.3",
+    "api-query-params": "^5.4.0",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "dayjs": "^1.11.10",
+    "moment": "^2.29.4",
+    "pdfjs-dist": "^2.15.349",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-pdf": "^7.3.3",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.9.0",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.63.6",
+    "universal-cookie": "^4.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@vitejs/plugin-react-swc": "3.0.0",
+    "vite": "4.2.0"
+  }
+}
